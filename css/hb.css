@@ -1,0 +1,34 @@
+    #main {
+        width: 400px;
+        height: 400px;
+        background-image: url(../img/true.jpg);
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    #con {
+        width: 100%;
+        height: 400px;
+        position: relative;
+        top: -100px; /*隐藏最上层的那行*/
+        border-collapse:collapse;
+    }
+
+    .row{
+        height: 100px;
+        width: 100%;
+    }
+
+    .cell{
+        height: 98px;
+        width: 98px;
+        float: left;
+    }
+
+    .black{
+        background: black;
+    }
+    
+	h2{
+		text-align: center;
+	}

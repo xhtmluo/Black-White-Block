@@ -99,7 +99,7 @@
                     fail();
                 }
             }
-            document.getElementById("button").style.display = "none";
+            $("button").style.display = "none";
         }
 
         // 加速函数

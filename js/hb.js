@@ -105,7 +105,7 @@
         // 加速函数
         function speedup(){
             speed += 2;
-            if(speed == 20){
+            if(speed == 10){
                 speed += 0;
             }
         }

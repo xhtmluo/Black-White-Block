@@ -106,7 +106,7 @@
         function speedup(){
             speed += 2;
             if(speed == 20){
-                alert('你超神了');
+                speed += 0;
             }
         }
 
